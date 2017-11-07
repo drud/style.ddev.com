@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Style guides for Drud Technology and associated products including DDEV.">
+    <meta name="author" content="Drud Technology, LLC.">
+    <link rel="icon" href="/assets/favicon.ico">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Drud Technology Style Guides</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Source+Code+Pro:200,300,400,500,600,700,900|Merriweather:300,400,700,900"
+    />
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/prism.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Drud Technology Style Guide
+            <span class="sr-only">(current)</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/components/">UI components</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/templates/">Page Templates</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#typography">
+                            <i class="fa fa-font p-2"></i>Typography</a>
+                    </li>
+                    <ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#typefaces">Typefaces</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pairings-styles">Pairings &amp; styles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#typesetting">Typesetting</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#links">Links</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lists">Lists</a>
+                        </li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/colors/">
+                            <i class="fa fa-paint-brush p-2"></i>Colors
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/accessibility/">
+                            <i class="fa fa-universal-access p-2"></i>Accessibility
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/grids/">
+                            <i class="fa fa-th p-2"></i>Grids
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/buttons/">
+                            <i class="fa fa-arrow-circle-up p-2"></i>Buttons
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/labels/">
+                            <i class="fa fa-tag p-2"></i>Labels
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/tables/">
+                            <i class="fa fa-table p-2"></i>Tables
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/alerts/">
+                            <i class="fa fa-exclamation-triangle p-2"></i>Alerts
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/accordions/">
+                            <i class="fa fa-window-minimize p-2"></i>Accordions
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/form/controls">
+                            <i class="fa fa-pencil p-2"></i>Form Controls
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/form/templates">
+                            <i class="fa fa-object-group p-2"></i>Form Templates
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/search">
+                            <i class="fa fa-search p-2"></i>Search Bar
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/sidenav">
+                            <i class="fa fa-bars p-2"></i>Side Navigation
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/headers">
+                            <i class="fa fa-chevron-up p-2"></i>Headers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/footers">
+                            <i class="fa fa-chevron-down p-2"></i>Footers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col p-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="page-header">
+                            <h1>
+                                <a name="typography"></a>Typography</h1>
+                        </div>
+                        <p class="lead">DRUD Technology websites and applications have common typographic needs: clear and consistent headings,
+                            highly legible body paragraphs, clear labels, and easy-to-use input fields. We recommend a font
+                            system that uses two open-source font families: Montserrat and Open , both of which are designed
+                            for legibility and can beautifully adapt to a variety of visual styles.</p>
+                    </div>
+                </div>
+                <h2>
+                    <a name="typefaces"></a>Typefaces
+                </h2>
+                <h3>Sans Serif: Montserrat</h3>
+                <hr />
+                <div class="row pb-4">
+                    <div class="col-3">
+                        <p class="sansserif-huge">Aa</p>
+                        <span class="sansserif-regular">
+                            <br />​‌A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌
+                            <br /> a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​
+                            <br /> ‌Ă​‌Â​‌Ê​‌Ô​‌Ơ​‌Ư​‌ă​‌â​‌ê​‌ô​‌ơ​‌ư​‌1​‌2​‌3​‌4​‌5​‌6​‌7​‌8​‌9​‌0​‌
+                            <br />‘​‌?​‌’​‌“​‌!​‌”​‌(​‌%​‌)​‌[​‌#​‌]​‌{​‌@​‌}​‌/​‌&amp;​‌\​‌&lt;​‌-​‌+​‌÷​‌×​‌=​‌&gt;​‌®​‌©​‌$​‌€​‌£​‌¥​‌¢​‌:​‌;​‌,​‌.​‌*
+                        </span>
+                    </div>
+                    <div class="col">
+                        <p>The old posters and signs in the traditional Montserrat neighborhood of Buenos Aires inspired Julieta
+                            to design this typeface and rescue the beauty of urban typography that emerged in the first half
+                            of the twentieth century. As urban development changes that place, it will never return to its
+                            original form and loses forever the designs that are so special and unique. The old typographies
+                            and canopies are irretrievable when they are replaced. The letters that inspired this project
+                            have work, dedication, care, color, contrast, light and life, day and night! These are the types
+                            that make the city look so beautiful. The goal is to rescue what is in Montserrat and set it
+                            free under a libre license, the SIL Open Font License.</p>
+                    </div>
+                    <div class="col-3">
+                        <span class="sansserif-thin">Thin</span>
+                        <br />
+                        <span class="sansserif-thin-italic">Thin Italic</span>
+                        <br />
+                        <span class="sansserif-extra-light">Extra-light</span>
+                        <br />
+                        <span class="sansserif-extra-light-italic">Extra-light Italic</span>
+                        <br />
+                        <span class="sansserif-light">Light</span>
+                        <br />
+                        <span class="sansserif-light-italic">Light Italic</span>
+                        <br />
+                        <span class="sansserif-regular">Regular</span>
+                        <br />
+                        <span class="sansserif-regular-italic">Regular Italic</span>
+                        <br />
+                        <span class="sansserif-medium">Medium</span>
+                        <br />
+                        <span class="sansserif-medium-italic">Medium Italic</span>
+                        <br />
+                        <span class="sansserif-semi-bold">Semi-Bold</span>
+                        <br />
+                        <span class="sansserif-semi-bold-italic">Semi-Bold Italic</span>
+                        <br />
+                        <span class="sansserif-bold">Bold</span>
+                        <br />
+                        <span class="sansserif-bold-italic">Bold Italic</span>
+                        <br />
+                        <span class="sansserif-extra-bold">Extra-Bold</span>
+                        <br />
+                        <span class="sansserif-extra-bold-italic">Extra-Bold Italic</span>
+                        <br />
+                        <span class="sansserif-black">Black</span>
+                        <br />
+                        <span class="sansserif-black-italic">Black Italic</span>
+                    </div>
+                </div>
+                <h3>Serif: Merriweather</h3>
+                <hr />
+                <div class="row pb-4">
+                    <div class="col-3">
+                        <p class="serif-huge">Aa</p>
+                        <span class="serif-regular">
+                            <br />​‌A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌
+                            <br /> a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​
+                            <br /> ‌Ă​‌Â​‌Ê​‌Ô​‌Ơ​‌Ư​‌ă​‌â​‌ê​‌ô​‌ơ​‌ư​‌1​‌2​‌3​‌4​‌5​‌6​‌7​‌8​‌9​‌0​‌
+                            <br />‘​‌?​‌’​‌“​‌!​‌”​‌(​‌%​‌)​‌[​‌#​‌]​‌{​‌@​‌}​‌/​‌&amp;​‌\​‌&lt;​‌-​‌+​‌÷​‌×​‌=​‌&gt;​‌®​‌©​‌$​‌€​‌£​‌¥​‌¢​‌:​‌;​‌,​‌.​‌*
+                        </span>
+                    </div>
+                    <div class="col">
+                        <p>Merriweather was designed to be a text face that is pleasant to read on screens. It features a very
+                            large x height, slightly condensed letterforms, a mild diagonal stress, sturdy serifs and open
+                            forms.
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <span class="serif-light">Light</span>
+                        <br />
+                        <span class="serif-light-italic">Light Italic</span>
+                        <br />
+                        <span class="serif-regular">Regular</span>
+                        <br />
+                        <span class="serif-regular-italic">Regular Italic</span>
+                        <br />
+                        <span class="serif-bold">Bold</span>
+                        <br />
+                        <span class="serif-bold-italic">Bold Italic</span>
+                        <br />
+                        <span class="serif-black">Black</span>
+                        <br />
+                        <span class="serif-black-italic">Black Italic</span>
+                    </div>
+                </div>
+                <h3>Monospace: Source Code Pro</h3>
+                <hr />
+                <div class="row pb-4">
+                    <div class="col-3">
+                        <p class="monospace-huge">Aa</p>
+                        <span class="monospace-regular">
+                            <br />​‌A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌
+                            <br /> a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​
+                            <br /> ‌Ă​‌Â​‌Ê​‌Ô​‌Ơ​‌Ư​‌ă​‌â​‌ê​‌ô​‌ơ​‌ư​‌1​‌2​‌3​‌4​‌5​‌6​‌7​‌8​‌9​‌0​‌
+                            <br />‘​‌?​‌’​‌“​‌!​‌”​‌(​‌%​‌)​‌[​‌#​‌]​‌{​‌@​‌}​‌/​‌&amp;​‌\​‌&lt;​‌-​‌+​‌÷​‌×​‌=​‌&gt;​‌®​‌©​‌$​‌€​‌£​‌¥​‌¢​‌:​‌;​‌,​‌.​‌*
+                        </span>
+                    </div>
+                    <div class="col">
+                        <p>Source Code was designed by Paul D. Hunt as a companion to Source Sans. This complementary family
+                            was adapted from the Source design due to a request to create a monospaced version for coding
+                            applications. Source Code preserves the design features and vertical proportions of Source Sans,
+                            but alters the glyph widths so that they are uniform across all glyphs and weights. Although
+                            this family was designed specifically for coding environments, for which a regular weight will
+                            typically suffice, Source Code has been made available in the same weight range as the corresponding
+                            Source Sans design. Source Code Pro currently supports a wide range of languages using the Latin
+                            script, and includes all the characters in the Adobe Latin 4 glyph set.
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <span class="monospace-extra-light">Extra-light</span>
+                        <br />
+                        <span class="monospace-light">Light</span>
+                        <br />
+                        <span class="monospace-regular">Regular</span>
+                        <br />
+                        <span class="monospace-medium">Medium</span>
+                        <br />
+                        <span class="monospace-semi-bold">Semi-Bold</span>
+                        <br />
+                        <span class="monospace-bold">Bold</span>
+                        <br />
+                        <span class="monospace-black">Black</span>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col">
+                        <h2>
+                            <a name="pairings-styles"></a>Pairings and styles
+                        </h2>
+                        <div id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="card">
+                                <div class="card-header" role="tab" id="default-pairing">
+                                    <h5 class="mb-0">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Default: Merriweather headings with Montserrat body
+                                        </a>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="default-pairing">
+                                    <div class="card-block">
+                                        <div class="row p-3">
+                                            <div class="col">
+                                                <p>A simple serif and sans serif combination designed to communicate warmth
+                                                    and credibility. Strong Merriweather heading weights offer clear information
+                                                    hierarchy and when paired with Montserrat’s easy-to-read body text, create
+                                                    a clean and professional feel.
+                                                </p>
+
+                                                <p>Font weights included in this package:</p>
+                                                <ol>
+                                                    <li>Merriweather 300</li>
+                                                    <li>Merriweather 700</li>
+                                                    <li>Montserrat 400</li>
+                                                    <li>Montserrat 500</li>
+                                                </ol>
+                                                <pre class="line-numbers"><code class="language-markup">&lt;link 
+rel="stylesheet" 
+href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Merriweather:300,700" /&gt;</code></pre>
+                                            </div>
+                                        </div>
+                                        <div class="row p-3">
+                                            <div class="col-6">
+                                                <h1 class="serif-bold">Heading 1</h1>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="row">
+                                                    <pre class="line-numbers"><code class="language-css">h1 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h2 class="serif-bold">Heading 2</h2>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h2 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 2.0rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h3 class="serif-bold">Heading 3</h3>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h3 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h4 class="serif-bold">Heading 4</h4>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h4 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h5 class="serif-bold">Heading 5</h5>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h5 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h6 class="sansserif-medium">Heading 6</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h6 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <p class="serif-lead">Lead Paragraph</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">.lead {
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <p>Body copy. A series of sentences together which make a paragraph.</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6 sansserif-regular-italic">
+                                            <p>Italic body copy. A series of sentences together which make a paragraph.</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header" role="tab" id="merriweather-heading-body">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Merriweather headings with Merriweather body
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="merriweather-heading-body">
+                                    <div class="card-block">
+                                        <div class="row p-3">
+                                            <div class="col">
+                                                <p>The most formal of the options, this pairing uses Merriweather for both headings
+                                                    and body text. The full suite of serif styles communicates trustworthiness,
+                                                    while Merriweather’s contemporary shapes convey freshness and a modern
+                                                    relevance. The weights are designed to pair together for easy reading
+                                                    and clean page design.</p>
+
+                                                <p>Font weights included in this package:</p>
+                                                <ol>
+                                                    <li>Merriweather 300</li>
+                                                    <li>Merriweather 700</li>
+                                                    <li>Montserrat 400</li>
+                                                </ol>
+                                                <pre class="line-numbers"><code class="language-markup">&lt;link
+rel="stylesheet" 
+href="https://fonts.googleapis.com/css?family=Montserrat:400|Merriweather:300,700" /&gt;</code></pre>
+                                            </div>
+                                        </div>
+                                        <div class="row p-3">
+                                            <div class="col-6">
+                                                <h1 class="serif-bold">Heading 1</h1>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="row">
+                                                    <pre class="line-numbers"><code class="language-css">h1 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p3 p-3">
+                                        <div class="col-6">
+                                            <h2 class="serif-bold">Heading 2</h2>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h2 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 2.0rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h3 class="serif-bold">Heading 3</h3>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h3 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h4 class="serif-bold">Heading 4</h4>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h4 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h5 class="serif-bold">Heading 5</h5>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h5 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h6 class="serif-bold">Heading 6</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h4 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <p class="serif-lead">Lead Paragraph</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">.lead {
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <p class="serif-regular">Body copy. A series of sentences together which make a paragraph.</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6 serif-regular-italic">
+                                            <p class="serif-regular-italic">Italic body copy. A series of sentences together which make a paragraph.</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">.p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Montserrat headings with Merriweather body
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="card-block">
+                                    <div class="row p-3">
+                                        <div class="col">
+                                            <p>A variation on the serif and sans serif pairing, this combination uses multiple
+                                                weights of Montserrat for clear headings combined with the formal feeling
+                                                of Merriweather for body text. This pair similarly communicates professionalism,
+                                                with extra emphasis on sleek and legible headings.</p>
+
+                                            <p>Font weights included in this package:</p>
+                                            <ol>
+                                                <li>Montserrat 700</li>
+                                                <li>Montserrat 300</li>
+                                                <li>Merriweather 400</li>
+                                            </ol>
+                                            <pre class="line-numbers"><code class="language-markup">&lt;link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Merriweather:400" /&gt;</code></pre>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h1 class="sansserif-bold">Heading 1</h1>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p3 p-3">
+                                    <div class="col-6">
+                                        <h2 class="sansserif-bold">Heading 2</h2>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2.0rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <h3 class="sansserif-bold">Heading 3</h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <h4 class="snasserif-bold">Heading 4</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h4 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <h5 class="sansserif-bold">Heading 5</h5>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h5 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <h6 class="sansserif-bold">Heading 6</h6>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h6 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <p class="sansserif-lead">Lead Paragraph</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">.lead {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <p class="serif-regular">Body copy. A series of sentences together which make a paragraph.</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">p {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6 serif-regular-italic">
+                                        <p class="serif-regular-italic">Italic body copy. A series of sentences together which make a paragraph.</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">.p {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingFour">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Montserrat headings with Montserrat body
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="card-block">
+                                    <div class="row p-3">
+                                        <div class="col">
+                                            <p>Inspired by the growth of simple and welcoming type in modern web UI design,
+                                                this suite uses Source Sans Pro exclusively. With a range of weights designed
+                                                to fit into heading styles to clearly communicate hierarchy of information,
+                                                this pairing can support both extremely simple designs and more polished,
+                                                promotional sites.</p>
+
+                                            <p>Font weights included in this package:</p>
+                                            <ol>
+                                                <li>Montserrat 300</li>
+                                                <li>Montserrat 400</li>
+                                                <li>Montserrat 700</li>
+                                            </ol>
+                                            <pre class="line-numbers"><code class="language-markup">&lt;link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" /&gt;</code></pre>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <div class="col-6">
+                                            <h1 class="sansserif-bold">Heading 1</h1>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <pre class="line-numbers"><code class="language-css">h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p3 p-3">
+                                    <div class="col-6">
+                                        <h2 class="sansserif-bold">Heading 2</h2>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2.0rem;
+    line-height: 1.3;
+}
+</code></pre>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <h3 class="sansserif-bold">Heading 3</h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <h4 class="snasserif-bold">Heading 4</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h4 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <h5 class="sansserif-bold">Heading 5</h5>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h5 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <h6 class="sansserif-bold">Heading 6</h6>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">h6 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <p class="sansserif-lead">Lead Paragraph</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">.lead {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <p class="sansserif-regular">Body copy. A series of sentences together which make a paragraph.</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-6">
+                                        <p class="sansserif-regular-italic">Italic body copy. A series of sentences together which make a paragraph.</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <pre class="line-numbers"><code class="language-css">p {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col">
+                        <h2>
+                            <a name="typesetting"></a>Typesetting</h2>
+                        <p> Readable text allows users to efficiently read and take in textual information, whereas text that
+                            is not readable turns off readers or makes it challenging for them to stay focused. The following
+                            guidelines promote good readability.
+                        </p>
+                        <h4 class="card-title">Alignment</h4>
+                        <div class="card p-3 maxwidth">
+                            <div class="card-block">
+                                <h4>Lorem ipsum dolor sit amet</h4>
+                                <p class="card-text">Morbi commodo turpis vel sem dictum, eget mollis elit dignissim. Curabitur accumsan a ante
+                                    non euismod. Ut semper augue commodo orci auctor, ultrices sollicitudin neque dapibus.
+                                    Sed porttitor vel metus eget lacinia. Cras bibendum tempus sodales. In non lobortis eros.
+                                    <p class="card-text"></p>Aliquam a massa efficitur sapien egestas imperdiet sed ac diam. Nullam vitae convallis
+                                    leo, nec posuere ipsum. Donec iaculis porta tellus, vitae eleifend nisi tempus in. Donec
+                                    id ante ac odio venenatis aliquam ac id ante. Aliquam sodales ac nisi eget sollicitudin.
+                                    Phasellus placerat cursus neque at laoreet. Fusce scelerisque tortor ipsum, ac ultrices
+                                    sapien volutpat quis. Nullam luctus aliquet tellus, vel cursus nisi vestibulum ut. Integer
+                                    vitae semper nisi, eget vestibulum felis. Donec eu neque accumsan, lacinia turpis vitae,
+                                    imperdiet ante.</p>
+
+                                <div id="docs-typesetting-alignment-accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="card">
+                                        <div class="card-header" role="tab" id="docs-typesetting-alignment">
+                                            <h5 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#docs-typesetting-alignment-accordion" href="#docs-typesetting-alignment-fold" aria-expanded="true"
+                                                    aria-controls="docs-typesetting-alignment-fold">
+                                                    Alignment Documentation
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="docs-typesetting-alignment-fold" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="card-block p-3">
+                                                <p>Type set flush left provides the eye a constant starting point for each line,
+                                                    making text easier to read.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="docs-typesetting-alignment-code">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#docs-typesetting-alignment-code-accordion" href="#docs-typesetting-alignment-code-fold"
+                                                aria-expanded="true" aria-controls="docs-typesetting-alignment-code-fold">
+                                                Alignment Code
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div id="docs-typesetting-alignment-code-fold" class="collapse" role="tabpanel" aria-labelledby="docs-typesetting-alignment-code">
+                                        <div class="card-block p-3">
+                                            <pre class="line-numbers"><code class="language-markup">&lt;style&gt;
+p {
+    text-align: left;
+}
+&lt;/style&gt;
+
+&lt;p&gt;Morbi commodo turpis vel sem dictum, eget mollis elit dignissim. Curabitur accumsan a ante non euismod. Ut semper augue commodo orci auctor, ultrices sollicitudin neque dapibus. Sed porttitor vel metus eget lacinia. Cras bibendum tempus sodales. In non lobortis eros.&lt;/p&gt;
+&lt;p&gt;Aliquam a massa efficitur sapien egestas imperdiet sed ac diam. Nullam vitae convallis leo, nec posuere ipsum. Donec iaculis porta tellus, vitae eleifend nisi tempus in. Donec id ante ac odio venenatis aliquam ac id ante. Aliquam sodales ac nisi eget sollicitudin. Phasellus placerat cursus neque at laoreet. Fusce scelerisque tortor ipsum, ac ultrices sapien volutpat quis. Nullam luctus aliquet tellus, vel cursus nisi vestibulum ut. Integer vitae semper nisi, eget vestibulum felis. Donec eu neque accumsan, lacinia turpis vitae, imperdiet ante.&lt;/p&gt;
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="card-title pt-4">Line Length - Desktop</h4>
+                        <div class="card p-3 maxwidth">
+                            <div class="card-block">
+                                <p class="card-text" style="max-width: 66ch;">Nulla accumsan pharetra tellus, eu aliquam nisl ullamcorper a. Nullam efficitur risus eu
+                                    maximus facilisis. Sed fermentum feugiat ante ac elementum. Donec consectetur eget neque
+                                    at viverra. Nullam faucibus pretium euismod. Donec ac vehicula enim. Sed arcu tellus,
+                                    mollis a sollicitudin ac, bibendum ac odio. In malesuada arcu sit amet tortor ornare,
+                                    sed tristique lacus elementum. Nam diam odio, gravida sed turpis vel, placerat vehicula
+                                    eros. Nam congue sem eu nulla pharetra pellentesque. Cras efficitur consectetur ullamcorper.</p>
+                            </div>
+                            <div id="docs-typesetting-width-accordion" role="tablist" aria-multiselectable="true">
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="docs-typesetting-width">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#docs-typesetting-width-accordion" href="#docs-typesetting-width-fold" aria-expanded="true"
+                                                aria-controls="docs-typesetting-width-fold">
+                                                Line Length Documentation
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div id="docs-typesetting-width-fold" class="collapse" role="tabpanel" aria-labelledby="docs-typesetting-width">
+                                        <div class="card-block p-3">
+                                            <p>Controlling the length of lines of text in extended copy makes reading more comfortable
+                                                by helping readers’ eyes flow easily from one line to the next. Somewhere
+                                                between 50 and 75 characters per line is broadly considered to be a readable
+                                                line length, while 66 characters is considered the ideal. Other factors beyond
+                                                line length also affect reading comfort. Text with more space between lines
+                                                can have somewhat longer line length. Also, contexts in which users will
+                                                not be reading long passages of text (such as footnotes or alerts) can safely
+                                                be set with somewhat longer lines as well.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="docs-typesetting-width">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#docs-typesetting-width-code-accordion" href="#docs-typesetting-width-code-fold" aria-expanded="true"
+                                                aria-controls="docs-typesetting-width-code-fold">
+                                                Line Length Code
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div id="docs-typesetting-width-code-fold" class="collapse" role="tabpanel" aria-labelledby="docs-typesetting-width-code">
+                                        <div class="card-block p-3">
+                                            <pre class="line-numbers"><code class="language-markup">&lt;style&gt;
+p {
+    max-width: 66ch;
+}
+&lt;/style&gt;
+
+&lt;p&gt;Nulla accumsan pharetra tellus, eu aliquam nisl ullamcorper a. Nullam efficitur risus eu maximus facilisis. Sed fermentum feugiat ante ac elementum. Donec consectetur eget neque at viverra. Nullam faucibus pretium euismod. Donec ac vehicula enim. Sed arcu tellus, mollis a sollicitudin ac, bibendum ac odio. In malesuada arcu sit amet tortor ornare, sed tristique lacus elementum. Nam diam odio, gravida sed turpis vel, placerat vehicula eros. Nam congue sem eu nulla pharetra pellentesque. Cras efficitur consectetur ullamcorper.&lt;/p&gt;
+</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col">
+                        <h2>
+                            <a name="links"></a>Links</h2>
+                        <div class="card p-3">
+                            <p>
+                                <a href="javascript:void(0);">This</a> is a text link on a light background.</p>
+                            <p>
+                                <a href="javascript:void(0);" class="visited">This</a> is a visited link.</p>
+                            <p>
+                                <a href="https://www.drud.com/">This
+                                    <i class="fa fa-external-link"></i>
+                                </a> is a link that goes to an external website.</p>
+                            <p class="text-light bg-dark p-3">
+                                <a href="javascript:void(0);" class="text-light">This</a> is a text link on a dark background.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>
+                            <a name="lists"></a>Lists</h2>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col-6">
+                        <div class="card p-3">
+                            <h4>Unordered List</h4>
+                            <ul>
+                                <li>Unordered list item</li>
+                                <li>Unordered list item</li>
+                                <li>Unordered list item</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card p-3">
+                            <h4>Ordered List</h4>
+                            <ol>
+                                <li>Ordered list item</li>
+                                <li>Ordered list item</li>
+                                <li>Ordered list item</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/prism.js"></script>
+</body>
+
+</html>

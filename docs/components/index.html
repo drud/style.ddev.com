@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/components/">UI components</a>
+                    <a class="nav-link active" href="/components/">UI components</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/templates/">Page Templates</a>
@@ -43,10 +43,48 @@
         </div>
     </nav>
 
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/style.js"></script>
+    <div class="container-fluid">
+        <div class="row d-flex d-md-block flex-nowrap wrapper">
+            <div id="sidebar" class="col-md-3 float-left col-1 pl-0 pr-0 collapse width show">
+                <div class="list-group border-0 card text-center text-md-left">
+                    <a href="/components/typography/" class="list-group-item d-inline-block collapsed">
+                        <i class="fa fa-font"></i>
+                        <span class="d-none d-md-inline">Typography </span>
+                    </a>
+                    <a href="/components/colors/" class="list-group-item d-inline-block collapsed">
+                        <i class=" fa fa-paint-brush "></i>
+                        <span class="d-none d-md-inline ">Colors</span>
+                    </a>
+                </div>
+            </div>
+            <main class="col-md-9 float-left col px-5 pl-md-2 pt-2 main ">
+                <div class="page-header ">
+                    <h2>UI Components</h2>
+                </div>
+                <p class="lead ">User interface elements packaged for distribution.</p>
+                <hr>
+                <div class="row ">
+                    <div class="col-12 ">
+                        <p>components</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="/js/jquery.min.js "></script>
+    <script src="/js/popper.min.js "></script>
+    <script src="/js/bootstrap.min.js "></script>
+    <script src="/js/style.js "></script>
 </body>
 
 </html>
