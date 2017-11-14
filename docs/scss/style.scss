@@ -1,11 +1,209 @@
-$sansserif: "Montserrat",sans-serif;
-$serif: "Merriweather", serif;
-$monospace: "Source Code Pro", monospace;
+$sansserif: "Montserrat",
+sans-serif;
+$serif: "Merriweather",
+serif;
+$monospace: "Source Code Pro",
+monospace;
+
+$color-primary: #3BC3E6 !default;
+$color-primary-offset: #1E1A34 !default;
+$color-primary-darker: #236192 !default;
+$color-primary-darker-offset: #ffffff !default;
+$color-primary-darkest: #1B365D !default;
+$color-primary-darkest-offset: #D7C6E6 !default;
+
+$color-primary-alt: #0072CE !default;
+$color-primary-alt-offset: #FFFFFF !default;
+$color-primary-alt-darkest: #1E1A34 !default;
+$color-primary-alt-darkest-offset: #AAA4CC !default;
+$color-primary-alt-dark: #003A70 !default;
+$color-primary-alt-dark-offset: #A7C6ED !default;
+$color-primary-alt-light: #7BA4DB !default;
+$color-primary-alt-light-offset: #221C35 !default;
+$color-primary-alt-lightest: #B8CCEA !default;
+$color-primary-alt-lightest-offset: $color-primary-alt-darkest !default;
+
+$color-secondary: #78D64B !default;
+$color-secondary-offset: #25282A !default;
+$color-secondary-darkest: #3D441E !default;
+$color-secondary-darkest-offset: #D0DEBB !default;
+$color-secondary-dark: #43b02A !default;
+$color-secondary-dark-offset: #000000 !default;
+$color-secondary-light: #ADDC91 !default;
+$color-secondary-light-offset: #3D441E !default;
+$color-secondary-lightest: #d9d9d6 !default;
+$color-secondary-lightest-offset: $color-secondary-darkest !default;
+
+$color-gray: #97999B !default;
+$color-gray-offset: #000000 !default;
+$color-gray-dark: #75787B !default;
+$color-gray-dark-offset: #FFFFFF !default;
+$color-gray-light: #B1B3B3 !default;
+$color-gray-light-offset: #212721 !default;
+$color-gray-lighter: #C8C9C7 !default;
+$color-gray-lighter-offset: #3D3935 !default;
+$color-gray-lightest: #D9D9D6 !default;
+$color-gray-lightest-offset: #3D3935 !default;
+
+$color-base: #131E29 !default;
+$color-base-offset: #A2B2C8 !default;
+$color-white: #ffffff !default;
+$color-white-offset: $color-primary-darkest !default;
+$color-black: #000000 !default;
+$color-black-offset: $color-primary !default;
+
+.color-primary { color: $color-primary !important; }
+.color-primary-offset { color: $color-primary-offset !important; }
+.color-primary-darker { color: $color-primary-darker !important; }
+.color-primary-darker-offset { color: $color-primary-darker-offset !important; }
+.color-primary-darkest { color: $color-primary-darkest !important; }
+.color-primary-darkest-offset { color: $color-primary-darkest-offset !important; }
+.color-primary-alt { color: $color-primary-alt !important; }
+.color-primary-alt-offset { color: $color-primary-alt-offset !important; }
+.color-primary-alt-darkest { color: $color-primary-alt-darkest !important; }
+.color-primary-alt-darkest-offset { color: $color-primary-alt-darkest-offset !important; }
+.color-primary-alt-dark { color: $color-primary-alt-dark !important; }
+.color-primary-alt-dark-offset { color: $color-primary-alt-dark-offset !important; }
+.color-primary-alt-light { color: $color-primary-alt-light !important; }
+.color-primary-alt-light-offset { color: $color-primary-alt-light-offset !important; }
+.color-primary-alt-lightest { color: $color-primary-alt-lightest !important; }
+.color-primary-alt-lightest-offset { color: $color-primary-alt-lightest-offset !important; }
+.color-secondary { color: $color-secondary !important; }
+.color-secondary-offset { color: $color-secondary-offset !important; }
+.color-secondary-darkest { color: $color-secondary-darkest !important; }
+.color-secondary-darkest-offset { color: $color-secondary-darkest-offset !important; }
+.color-secondary-dark { color: $color-secondary-dark !important; }
+.color-secondary-dark-offset { color: $color-secondary-dark-offset !important; }
+.color-secondary-light { color: $color-secondary-light !important; }
+.color-secondary-light-offset { color: $color-secondary-light-offset !important; }
+.color-secondary-lightest { color: $color-secondary-lightest !important; }
+.color-secondary-lightest-offset { color: $color-secondary !important; }
+.color-gray { color: $color-gray !important; }
+.color-gray-offset { color: $color-gray-offset !important; }
+.color-gray-dark { color: $color-gray-dark !important; }
+.color-gray-dark-offset { color: $color-gray-dark-offset !important; }
+.color-gray-light { color: $color-gray-light !important; }
+.color-gray-light-offset { color: $color-gray-light-offset !important; }
+.color-gray-lighter { color: $color-gray-lighter !important; }
+.color-gray-lighter-offset { color: $color-gray-lighter-offset !important; }
+.color-gray-lightest { color: $color-gray-lightest !important; }
+.color-gray-lightest-offset { color: $color-gray-lightest-offset !important; }
+.color-base { color: $color-base !important; }
+.color-base-offset { color: $color-base-offset !important; }
+.color-white { color: $color-white !important; }
+.color-white-offset { color: $color-white-offset !important; }
+.color-black { color: $color-black !important; }
+.color-black-offset { color: $color-black-offset !important; }
+
+.bg-primary {
+    background-color: $color-primary !important;
+    color: $color-primary-offset;
+}
+
+.bg-primary-darker {
+    background-color: $color-primary-darker !important;
+    color: $color-primary-darker-offset;
+}
+
+.bg-primary-darkest {
+    background-color: $color-primary-darkest !important;
+    color: $color-primary-darkest-offset;
+}
+
+.bg-base {
+    background-color: $color-base !important;
+    color: $color-base-offset;
+}
+
+.bg-gray {
+    background-color: $color-gray !important;
+    color: $color-gray-offset;
+}
+
+.bg-gray-dark {
+    background-color: $color-gray-dark !important;
+    color: $color-gray-dark-offset;
+}
+
+.bg-gray-light {
+    background-color: $color-gray-light !important;
+    color: $color-gray-light-offset;
+}
+
+.bg-gray-lighter {
+    background-color: $color-gray-lighter !important;
+    color: $color-gray-lighter-offset;
+}
+
+.bg-gray-lightest {
+    background-color: $color-gray-lightest !important;
+    color: $color-gray-lightest-offset;
+}
+
+.bg-white {
+    background-color: $color-white !important;
+    color: $color-white-offset;
+}
+
+.bg-black {
+    background-color: $color-black !important;
+    color: $color-black-offset;
+}
+.bg-primary-alt {
+    background-color: $color-primary-alt !important;
+    color: $color-primary-alt-offset;
+}
+.bg-primary-alt-darkest {
+    background-color: $color-primary-alt-darkest !important;
+    color: $color-primary-alt-darkest-offset;
+}
+.bg-primary-alt-dark {
+    background-color: $color-primary-alt-dark !important;
+    color: $color-primary-alt-dark-offset;
+}
+.bg-primary-alt-light {
+    background-color: $color-primary-alt-light !important;
+    color: $color-primary-alt-light-offset;
+}
+.bg-primary-alt-lightest {
+    background-color: $color-primary-alt-lightest !important;
+    color: $color-primary-alt-lightest-offset;
+}
+
+.bg-secondary {
+    background-color: $color-secondary !important;
+    color: $color-secondary-offset;
+}
+.bg-secondary-darkest {
+    background-color: $color-secondary-darkest !important;
+    color: $color-secondary-darkest-offset;
+}
+.bg-secondary-dark {
+    background-color: $color-secondary-dark !important;
+    color: $color-secondary-dark-offset;
+}
+.bg-secondary-light {
+    background-color: $color-secondary-light !important;
+    color: $color-secondary-light-offset;
+}
+.bg-secondary-lightest {
+    background-color: $color-secondary-lightest !important;
+    color: $color-secondary-lightest-offset;
+}
+
 
 /* Site layout items not specific to Drud Technology styles */
 
 body {
     min-height: 75rem;
+}
+
+[data-toggle="collapse"] i:before {
+    content: "\f139";
+}
+
+[data-toggle="collapse"].collapsed i:before {
+    content: "\f13a";
 }
 
 body .bodypadding {
@@ -16,12 +214,28 @@ body .bodypadding {
     padding-top: 3.75rem;
 }
 
+a {
+    text-decoration: underline;
+}
+
+a[href*="//"]:after {
+    content: "\f08e";
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    padding-left: .25em;
+    text-decoration: none;
+}
+
 h1,
 .h1 {
     font-family: $serif;
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 1.3;
+    color: $color-primary-darkest
 }
 
 h2,
@@ -30,6 +244,7 @@ h2,
     font-weight: 700;
     font-size: 2rem;
     line-height: 1.3;
+    color: $color-primary-darkest
 }
 
 h3,
@@ -38,6 +253,7 @@ h3,
     font-weight: 700;
     font-size: 1.75rem;
     line-height: 1.3;
+    color: $color-primary-darkest
 }
 
 h4,
@@ -46,6 +262,7 @@ h4,
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.3;
+    color: $color-primary-darkest
 }
 
 h5,
@@ -54,6 +271,7 @@ h5,
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.3;
+    color: $color-primary-darkest
 }
 
 h6,
@@ -63,14 +281,17 @@ h6,
     font-size: 1rem;
     text-transform: uppercase;
     line-height: 1.3;
+    color: $color-primary-darkest
 }
 
 p {
     max-width: 66ch;
 }
+
 .maxwidth {
     max-width: 66ch;
 }
+
 .serif-lead {
     font-family: $serif;
     font-size: 1.25rem;

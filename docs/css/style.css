@@ -1,6 +1,222 @@
+.color-primary {
+  color: #3BC3E6 !important; }
+
+.color-primary-offset {
+  color: #1E1A34 !important; }
+
+.color-primary-darker {
+  color: #236192 !important; }
+
+.color-primary-darker-offset {
+  color: #ffffff !important; }
+
+.color-primary-darkest {
+  color: #1B365D !important; }
+
+.color-primary-darkest-offset {
+  color: #D7C6E6 !important; }
+
+.color-primary-alt {
+  color: #0072CE !important; }
+
+.color-primary-alt-offset {
+  color: #FFFFFF !important; }
+
+.color-primary-alt-darkest {
+  color: #1E1A34 !important; }
+
+.color-primary-alt-darkest-offset {
+  color: #AAA4CC !important; }
+
+.color-primary-alt-dark {
+  color: #003A70 !important; }
+
+.color-primary-alt-dark-offset {
+  color: #A7C6ED !important; }
+
+.color-primary-alt-light {
+  color: #7BA4DB !important; }
+
+.color-primary-alt-light-offset {
+  color: #221C35 !important; }
+
+.color-primary-alt-lightest {
+  color: #B8CCEA !important; }
+
+.color-primary-alt-lightest-offset {
+  color: #1E1A34 !important; }
+
+.color-secondary {
+  color: #78D64B !important; }
+
+.color-secondary-offset {
+  color: #25282A !important; }
+
+.color-secondary-darkest {
+  color: #3D441E !important; }
+
+.color-secondary-darkest-offset {
+  color: #D0DEBB !important; }
+
+.color-secondary-dark {
+  color: #43b02A !important; }
+
+.color-secondary-dark-offset {
+  color: #000000 !important; }
+
+.color-secondary-light {
+  color: #ADDC91 !important; }
+
+.color-secondary-light-offset {
+  color: #3D441E !important; }
+
+.color-secondary-lightest {
+  color: #d9d9d6 !important; }
+
+.color-secondary-lightest-offset {
+  color: #78D64B !important; }
+
+.color-gray {
+  color: #97999B !important; }
+
+.color-gray-offset {
+  color: #000000 !important; }
+
+.color-gray-dark {
+  color: #75787B !important; }
+
+.color-gray-dark-offset {
+  color: #FFFFFF !important; }
+
+.color-gray-light {
+  color: #B1B3B3 !important; }
+
+.color-gray-light-offset {
+  color: #212721 !important; }
+
+.color-gray-lighter {
+  color: #C8C9C7 !important; }
+
+.color-gray-lighter-offset {
+  color: #3D3935 !important; }
+
+.color-gray-lightest {
+  color: #D9D9D6 !important; }
+
+.color-gray-lightest-offset {
+  color: #3D3935 !important; }
+
+.color-base {
+  color: #131E29 !important; }
+
+.color-base-offset {
+  color: #A2B2C8 !important; }
+
+.color-white {
+  color: #ffffff !important; }
+
+.color-white-offset {
+  color: #1B365D !important; }
+
+.color-black {
+  color: #000000 !important; }
+
+.color-black-offset {
+  color: #3BC3E6 !important; }
+
+.bg-primary {
+  background-color: #3BC3E6 !important;
+  color: #1E1A34; }
+
+.bg-primary-darker {
+  background-color: #236192 !important;
+  color: #ffffff; }
+
+.bg-primary-darkest {
+  background-color: #1B365D !important;
+  color: #D7C6E6; }
+
+.bg-base {
+  background-color: #131E29 !important;
+  color: #A2B2C8; }
+
+.bg-gray {
+  background-color: #97999B !important;
+  color: #000000; }
+
+.bg-gray-dark {
+  background-color: #75787B !important;
+  color: #FFFFFF; }
+
+.bg-gray-light {
+  background-color: #B1B3B3 !important;
+  color: #212721; }
+
+.bg-gray-lighter {
+  background-color: #C8C9C7 !important;
+  color: #3D3935; }
+
+.bg-gray-lightest {
+  background-color: #D9D9D6 !important;
+  color: #3D3935; }
+
+.bg-white {
+  background-color: #ffffff !important;
+  color: #1B365D; }
+
+.bg-black {
+  background-color: #000000 !important;
+  color: #3BC3E6; }
+
+.bg-primary-alt {
+  background-color: #0072CE !important;
+  color: #FFFFFF; }
+
+.bg-primary-alt-darkest {
+  background-color: #1E1A34 !important;
+  color: #AAA4CC; }
+
+.bg-primary-alt-dark {
+  background-color: #003A70 !important;
+  color: #A7C6ED; }
+
+.bg-primary-alt-light {
+  background-color: #7BA4DB !important;
+  color: #221C35; }
+
+.bg-primary-alt-lightest {
+  background-color: #B8CCEA !important;
+  color: #1E1A34; }
+
+.bg-secondary {
+  background-color: #78D64B !important;
+  color: #25282A; }
+
+.bg-secondary-darkest {
+  background-color: #3D441E !important;
+  color: #D0DEBB; }
+
+.bg-secondary-dark {
+  background-color: #43b02A !important;
+  color: #000000; }
+
+.bg-secondary-light {
+  background-color: #ADDC91 !important;
+  color: #3D441E; }
+
+.bg-secondary-lightest {
+  background-color: #d9d9d6 !important;
+  color: #3D441E; }
+
 /* Site layout items not specific to Drud Technology styles */
 body {
   min-height: 75rem; }
+
+[data-toggle="collapse"] i:before {
+  content: "\f139"; }
+
+[data-toggle="collapse"].collapsed i:before {
+  content: "\f13a"; }
 
 body .bodypadding {
   padding-top: 3.75rem; }
@@ -8,40 +224,58 @@ body .bodypadding {
 .offset-top {
   padding-top: 3.75rem; }
 
+a {
+  text-decoration: underline; }
+
+a[href*="//"]:after {
+  content: "\f08e";
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  padding-left: .25em;
+  text-decoration: none; }
+
 h1,
 .h1 {
   font-family: "Merriweather", serif;
   font-weight: 700;
   font-size: 2.5rem;
-  line-height: 1.3; }
+  line-height: 1.3;
+  color: #1B365D; }
 
 h2,
 .h2 {
   font-family: "Merriweather", serif;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 1.3; }
+  line-height: 1.3;
+  color: #1B365D; }
 
 h3,
 .h3 {
   font-family: "Merriweather", serif;
   font-weight: 700;
   font-size: 1.75rem;
-  line-height: 1.3; }
+  line-height: 1.3;
+  color: #1B365D; }
 
 h4,
 .h4 {
   font-family: "Merriweather", serif;
   font-weight: 700;
   font-size: 1.5rem;
-  line-height: 1.3; }
+  line-height: 1.3;
+  color: #1B365D; }
 
 h5,
 .h5 {
   font-family: "Merriweather", serif;
   font-weight: 700;
   font-size: 1.25rem;
-  line-height: 1.3; }
+  line-height: 1.3;
+  color: #1B365D; }
 
 h6,
 .h6 {
@@ -49,7 +283,8 @@ h6,
   font-weight: 500;
   font-size: 1rem;
   text-transform: uppercase;
-  line-height: 1.3; }
+  line-height: 1.3;
+  color: #1B365D; }
 
 p {
   max-width: 66ch; }
