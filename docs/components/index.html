@@ -13,7 +13,7 @@
 
     <title>Drud Technology Style Guides</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%7CSource+Code+Pro" />
     <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="/css/style.css" />
@@ -21,58 +21,48 @@
 </head>
 
 <body>
+    <!-- Start top navbar -->
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="/">Drud Technology Style Guide
             <span class="sr-only">(current)</span>
         </a>
-    </nav>
-    <nav id="sticky-nav" class="navbar navbar-expand-md navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="/components/">UI components</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/templates/">Page Templates</a>
-                </li>
-            </ul>
-        </div>
     </nav>
 
+    <!-- End top navbar -->
+
+    <!-- Start main container -->
+
     <div class="container-fluid">
-        <div class="row d-flex d-md-block flex-nowrap wrapper">
-            <div id="sidebar" class="col-md-3 float-left col-1 pl-0 pr-0 collapse width show">
-                <div class="list-group border-0 card text-center text-md-left">
-                    <a href="/components/typography/" class="list-group-item d-inline-block collapsed">
-                        <i class="fa fa-font"></i>
-                        <span class="d-none d-md-inline">Typography </span>
-                    </a>
-                    <a href="/components/colors/" class="list-group-item d-inline-block collapsed">
-                        <i class=" fa fa-paint-brush "></i>
-                        <span class="d-none d-md-inline ">Colors</span>
-                    </a>
+            <div class="row">
+    
+                <!-- Start sidebar -->
+    
+                <div class="col-md-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/components/typography/">
+                                <i class="fa fa-font p-2"></i>Typography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/components/colors/">
+                                <i class="fa fa-paint-brush p-2"></i>Colors
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+    
+                <!-- End sidebar -->
+    
+    
             </div>
-            <main class="col-md-9 float-left col px-5 pl-md-2 pt-2 main ">
-                <div class="page-header ">
-                    <h2>UI Components</h2>
-                </div>
-                <p class="lead ">User interface elements packaged for distribution.</p>
-                <hr>
-                <div class="row ">
-                    <div class="col-12 ">
-                        <p>components</p>
-                    </div>
-                </div>
-            </main>
         </div>
-    </div>
-
-
+    
+        <!-- End main container -->
 
 
 
