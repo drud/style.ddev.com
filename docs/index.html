@@ -21,27 +21,55 @@
 </head>
 
 <body>
+    <!-- Start top navbar -->
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="/">Drud Technology Style Guide
             <span class="sr-only">(current)</span>
         </a>
-    </nav>
-    <nav id="sticky-nav" class="navbar navbar-expand-md navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/components/">UI components</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/templates/">Page Templates</a>
-                </li>
-            </ul>
-        </div>
     </nav>
+
+    <!-- End top navbar -->
+
+    <!-- Start main container -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Start sidebar -->
+
+            <div class="col-md-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/components/typography/">
+                            <i class="fa fa-font p-2"></i>Typography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/colors/">
+                            <i class="fa fa-paint-brush p-2"></i>Colors
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/logos/">
+                            <i class="fa fa-trademark p-2"></i>Logos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- End sidebar -->
+
+
+        </div>
+    </div>
+
+    <!-- End main container -->
+
+
 
     <script src="/js/jquery.min.js"></script>
     <script src="/js/popper.min.js"></script>
