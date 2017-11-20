@@ -71,7 +71,7 @@
   color: #3D441E !important; }
 
 .color-secondary-lightest {
-  color: #d9d9d6 !important; }
+  color: #D9D9D6 !important; }
 
 .color-secondary-lightest-offset {
   color: #78D64B !important; }
@@ -86,7 +86,7 @@
   color: #75787B !important; }
 
 .color-gray-dark-offset {
-  color: #FFFFFF !important; }
+  color: #000000 !important; }
 
 .color-gray-light {
   color: #B1B3B3 !important; }
@@ -146,7 +146,7 @@
 
 .bg-gray-dark {
   background-color: #75787B !important;
-  color: #FFFFFF; }
+  color: #000000; }
 
 .bg-gray-light {
   background-color: #B1B3B3 !important;
@@ -205,7 +205,7 @@
   color: #3D441E; }
 
 .bg-secondary-lightest {
-  background-color: #d9d9d6 !important;
+  background-color: #D9D9D6 !important;
   color: #3D441E; }
 
 /* Site layout items not specific to Drud Technology styles */
