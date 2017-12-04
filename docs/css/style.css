@@ -208,6 +208,38 @@
   background-color: #D9D9D6 !important;
   color: #3D441E; }
 
+.bg-gold {
+  background-color: #F3DD3E !important;
+  color: #4B4307; }
+
+.bg-gold-light {
+  background-color: #F9EB80 !important;
+  color: #4B4307; }
+
+.bg-gold-lighter {
+  background-color: #F9F6D2 !important;
+  color: #4B4307; }
+
+.bg-gold-lightest {
+  background-color: #FBFBEA !important;
+  color: #4B4307; }
+
+.bg-green {
+  background-color: #00A079 !important;
+  color: #4B4307; }
+
+.bg-green-light {
+  background-color: #00E0A8 !important;
+  color: #4B4307; }
+
+.bg-green-lighter {
+  background-color: #80FFDF !important;
+  color: #4B4307; }
+
+.bg-green-lightest {
+  background-color: #D6FFF5 !important;
+  color: #4B4307; }
+
 /* Site layout items not specific to Drud Technology styles */
 body {
   min-height: 75rem; }
