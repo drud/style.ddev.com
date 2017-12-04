@@ -45,6 +45,24 @@ $color-gray-lighter-offset: #3D3935 !default;
 $color-gray-lightest: #D9D9D6 !default;
 $color-gray-lightest-offset: #3D3935 !default;
 
+$color-gold: #F3DD3E !default;
+$color-gold-offset: #4B4307 !default;
+$color-gold-light: #F9EB80 !default;
+$color-gold-light-offset: #4B4307 !default;
+$color-gold-lighter: #F9F6D2 !default;
+$color-gold-lighter-offset: #4B4307 !default;
+$color-gold-lightest: #FBFBEA !default;
+$color-gold-lightest-offset: #4B4307 !default;
+
+$color-green: #00A079 !default;
+$color-green-offset: #4B4307 !default;
+$color-green-light: #00E0A8 !default;
+$color-green-light-offset: #4B4307 !default;
+$color-green-lighter: #80FFDF !default;
+$color-green-lighter-offset: #4B4307 !default;
+$color-green-lightest: #D6FFF5 !default;
+$color-green-lightest-offset: #4B4307 !default;
+
 $color-base: #131E29 !default;
 $color-base-offset: #A2B2C8 !default;
 $color-white: #ffffff !default;
@@ -190,7 +208,38 @@ $color-black-offset: $color-primary !default;
     background-color: $color-secondary-lightest !important;
     color: $color-secondary-lightest-offset;
 }
-
+.bg-gold {
+    background-color: $color-gold !important;
+    color: $color-gold-offset;
+}
+.bg-gold-light {
+    background-color: $color-gold-light !important;
+    color: $color-gold-light-offset;
+}
+.bg-gold-lighter {
+    background-color: $color-gold-lighter !important;
+    color: $color-gold-lighter-offset;
+}
+.bg-gold-lightest {
+    background-color: $color-gold-lightest !important;
+    color: $color-gold-lightest-offset;
+}
+.bg-green {
+    background-color: $color-green !important;
+    color: $color-green-offset;
+}
+.bg-green-light {
+    background-color: $color-green-light !important;
+    color: $color-green-light-offset;
+}
+.bg-green-lighter {
+    background-color: $color-green-lighter !important;
+    color: $color-green-lighter-offset;
+}
+.bg-green-lightest {
+    background-color: $color-green-lightest !important;
+    color: $color-green-lightest-offset;
+}
 
 /* Site layout items not specific to Drud Technology styles */
 
