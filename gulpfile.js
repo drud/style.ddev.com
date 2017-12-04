@@ -25,7 +25,7 @@ gulp.task('serve', ['sass'], function () {
     });
 
     gulp.watch(['src/js/style.js', 'node_modules/bootstrap/scss/_variables.scss', 'node_modules/bootstrap/scss/bootstrap.scss', 'docs/scss/*.scss'], ['sass']);
-    gulp.watch(['docs/*.html', 'docs/components/*.html', 'docs/components/typography/*.html', 'docs/components/colors/*.html', 'templates/components/*.html']).on('change', browserSync.reload);
+    gulp.watch(['docs/*.html', 'docs/components/*.html', 'docs/components/typography/*.html', 'docs/components/colors/*.html', 'docs/components/alerts/*.html']).on('change', browserSync.reload);
 });
 
 gulp.task('default', ['js', 'serve']);
