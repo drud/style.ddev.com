@@ -1,3 +1,10 @@
+/* Red color placeholders */
+.color-red {
+  color: #F00 !important; }
+
+.color-red-offset {
+  color: yellow !important; }
+
 .color-primary {
   color: #3BC3E6 !important; }
 
@@ -127,6 +134,11 @@
 .bg-primary {
   background-color: #3BC3E6 !important;
   color: #1E1A34; }
+
+/*background red color placeholder */
+.bg-red {
+  background-color: #F00 !important;
+  color: yellow; }
 
 .bg-primary-darker {
   background-color: #236192 !important;
@@ -493,87 +505,37 @@ p {
   font-family: "Source Code Pro", monospace;
   font-size: 8em; }
 
-/* CSS pulled from USA Gov Site: https://standards.usa.gov/components/alerts/  */
-.usa-alert {
-  background-color: #f1f1f1;
-  background-position: 2rem 2rem;
-  background-repeat: no-repeat;
-  background-size: 5.2rem;
-  padding-bottom: 1.4rem;
-  padding-left: 3rem;
-  padding-right: 2rem;
-  padding-top: 2rem;
-  position: relative; }
-
-.usa-alert::before {
+/* Good css */
+.alert-success {
+  color: #000000;
   background-color: #43b02A;
-  content: '';
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1rem; }
+  border-color: #F3DD3E; }
 
-.usa-alert a {
-  color: #205493; }
+.alert-success hr {
+  border-top-color: #F3DD3E; }
 
-.usa-alert a:focus, .usa-alert a:hover {
-  color: #112e51; }
-
-.usa-alert ul {
-  margin-bottom: 0;
-  margin-top: 1rem;
-  padding-left: 1rem; }
-
-.usa-alert-success {
-  background-color: #ADDC91;
-  /* changed to DRUD Tech color */
-  background-image: url("..docs/assets/alertsimages/successpng.png");
-  /* Need help here to get the icon to show */
-  background-image: url("../assets/img/alerts/success.svg"); }
-
-.usa-alert-success::before {
-  background-color: #43b02A;
+.alert-success .alert-link {
   color: #000000; }
 
-/* changed to DRUD Tech color */
-.usa-alert-body {
-  display: table-cell;
-  padding-left: 5rem;
-  vertical-align: top; }
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb; }
 
-.usa-alert-warning {
-  background-color: #fff1d2;
-  background-image: url("../assets/img/alerts/warning.png");
-  background-image: url("../assets/img/alerts/warning.svg"); }
+.alert-danger hr {
+  border-top-color: #f1b0b7; }
 
-.usa-alert-warning::before {
-  background-color: #fdb81e; }
+.alert-danger .alert-link {
+  color: #491217; }
 
-.usa-alert-error {
-  background-color: #f9dede;
-  background-image: url("../assets/img/alerts/error.png");
-  background-image: url("../assets/img/alerts/error.svg"); }
+/* New css class */
+.alert-danger {
+  color: yellow;
+  background-color: #F00;
+  border-color: yellow; }
 
-.usa-alert-error::before {
-  background-color: #e31c3d; }
+.alert-danger hr {
+  border-top-color: #f1b0b7; }
 
-.usa-alert-info {
-  background-color: #e1f3f8;
-  background-image: url("../assets/img/alerts/info.png");
-  background-image: url("../assets/img/alerts/info.svg"); }
-
-.usa-alert-info::before {
-  background-color: #02bfe7; }
-
-.usa-alert-no_icon {
-  background-image: none; }
-
-.usa-alert-body {
-  display: table-cell;
-  padding-left: 5rem;
-  vertical-align: top; }
-
-.usa-alert-icon {
-  display: table-cell;
-  padding-right: 1rem; }
+.alert-danger .alert-link {
+  color: #491217; }
