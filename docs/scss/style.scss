@@ -64,9 +64,9 @@ $color-black: #000000 !default;
 $color-black-offset: $color-primary !default;
 
 /* Red color placeholders */
+
 $color-red: #F00!default;
 $color-red-offset: yellow !default;
-
 .color-red {
     color: $color-red !important;
 }
@@ -74,9 +74,6 @@ $color-red-offset: yellow !default;
 .color-red-offset {
     color: $color-red-offset !important;
 }
-
-
-
 
 .color-primary {
     color: $color-primary !important;
@@ -251,12 +248,13 @@ $color-red-offset: yellow !default;
     color: $color-primary-offset;
 }
 
+
 /*background red color placeholder */
+
 .bg-red {
     background-color: $color-red !important;
     color: $color-red-offset;
 }
-
 
 .bg-primary-darker {
     background-color: $color-primary-darker !important;
@@ -723,12 +721,6 @@ p {
     color: $color-secondary-dark-offset;
 }
 
-.alert-danger {
-    color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-}
-
 .alert-danger hr {
     border-top-color: #f1b0b7;
 }
@@ -736,6 +728,8 @@ p {
 .alert-danger .alert-link {
     color: #491217;
 }
+
+
 /* New css class */
 
 .alert-danger {
@@ -751,4 +745,3 @@ p {
 .alert-danger .alert-link {
     color: #491217;
 }
-
