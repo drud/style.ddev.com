@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Color guidelines for Drud Technology products and websites.">
+    <meta name="author" content="Drud Technology, LLC.">
+    <link rel="icon" href="/assets/favicon.ico">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Drud Technology Style Guides - Colors</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500%7CMerriweather:300,700%7CSource+Code+Pro:500"
+    />
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/prism.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+
+
+
+</head>
+
+
+
+<body>
+
+    <!-- Start top navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Drud Technology Style Guide
+
+            <span class="sr-only">(current)</span>
+        </a>
+
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <!-- End top navbar -->
+
+    <!-- Start main container -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Start sidebar -->
+
+            <div class="col-md-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/components/typography/">
+                            <i class="fa fa-font p-2"></i>Typography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/colors/">
+                            <i class="fa fa-paint-brush p-2"></i>Colors
+                        </a>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#palette">Palette</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/alerts/">
+                            <i class="fa fa-exclamation-triangle p-2"></i>Alerts
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/components/logos/">
+                            <i class="fa fa-trademark p-2"></i>Logos
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- End sidebar -->
+
+            <!-- Start main body -->
+
+            <div class="col p-3 maxwidth">
+
+                <!-- Start row 1 -->
+
+                <div class="row">
+                    <div class="col">
+                        <h1 id="colors" class="page-header">Alerts</h1>
+                        <p class="serif-lead">Alerts keep users informed of important and sometimes time-sensitive changes. Alerts also provide
+                            provide contextual feedback messages for typical user actions.</p>
+
+
+                        <hr>
+                        <h2 id="palette">Examples</h2>
+                        Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight
+                        required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts jQuery plugin.
+                        <br />
+                        <br />
+                        <!-- New Bootstrap 4 styling -->
+
+                        <div class="alert alert-success p-0 m-0" role="alert">
+                            <div class="row align-middle">
+                                <div class="col-1 bg-secondary-dark">&nbsp;</div>
+                                <div class="col-2 bg-secondary">
+                                    <i class="fa fa-check-circle fa-5x p-2"></i>
+                                </div>
+                                <div class="col bg-secondary pl-5 pt-3 pb-3 pr-3">
+                                    <h3>Success Status</h3>
+                                    <p>Lorem ipsum dolor sit amet,
+                                        <a href="#">consectetur adipiscing elit</a>, sed do eiusmod.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Error Status alerts button -->
+                        <div class="alert alert-danger p-0 m-0 mt-3" role="alert">
+                            <div class="row align-middle">
+                                <div class="col-1 bg-black">&nbsp;</div>
+                                <div class="col-2 bg-red">
+                                    <i class="fa fa-exclamation-circle fa-5x p-2"></i>
+                                </div>
+                                <!--Change to proper font-->
+                                <div class="col bg-red pl-5 pt-3 pb-3 pr-3">
+                                    <h3>Error Status</h3>
+                                    <!--Update the h3 tag -->
+                                    <p>This is an Error Status alert—check it out!
+                                        <a href="#">consectetur adipiscing elit</a>, sed do eiusmod.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- This is a Warning Status alert — alerts button -->
+                        <div class="alert alert-danger p-0 m-0 mt-3" role="alert">
+                            <div class="row align-middle">
+                                <div class="col-1 bg-gold">&nbsp;</div>
+                                <div class="col-2 bg-gold-light">
+                                    <i class="fa fa-exclamation-triangle fa-5x p-2"></i>
+                                </div>
+                                <!--Change to proper font-->
+                                <div class="col bg-gold-light pl-5 pt-3 pb-3 pr-3">
+                                    <h3>Warning Status</h3>
+                                    <!--Update the h3 tag -->
+                                    <p>This is a warning alert—check it out!
+                                        <a href="#">consectetur adipiscing elit</a>, sed do eiusmod.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Information Status alert -->
+                        <div class="alert alert-danger p-0 m-0 mt-3" role="alert">
+                            <div class="row align-middle">
+                                <div class="col-1 bg-green-lighter {
+                                    ">&nbsp;</div>
+                                <div class="col-2 bg-green-lightest {
+                                    ">
+                                    <i class="fa fa-info-circle fa-5x p-2"></i>
+                                </div>
+                                <!--Change to proper font-->
+                                <div class="col bg-green-lightest {
+                                    pl-5 pt-3 pb-3 pr-3">
+                                    <h3>Information Status</h3>
+                                    <!--Update the h3 tag -->
+                                    <p>This is an Information Status alert—check it out!
+                                        <a href="#">consectetur adipiscing elit</a>, sed do eiusmod.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Test -->
+
+
+                        <div id="card-links" class="pt-3" role="tablist" aria-multiselectable="true">
+                            <div class="card">
+                                <div class="card-header" role="tab" id="card-links-header">
+                                    <div class="row">
+                                        <div class="col-11">
+                                            <h5 id="card-links-docs-title" class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#card-links" href="#card-links-docs" aria-expanded="true" aria-controls="card-links-docs">
+                                                    Alerts Documentation
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#card-links" href="#card-links-docs" aria-expanded="true" aria-controls="card-links-docs">
+                                                    <i class="fa">&nbsp;</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="card-links-docs" class="collapse" role="tabpanel" aria-labelledby="card-links-docs-title">
+                                    <div class="card-block p-3">
+                                        <h4>Accessibility</h4>
+                                        <ul>
+                                            <li>Use the ARIA role="alert" to inform assistive technologies of a time-sensitive
+                                                and important message that is not interactive. If the message is interactive,
+                                                use the alertdialog role instead.</li>
+
+                                            <li>Do not visually hide alert messages on the page and then make them visible when
+                                                they are needed. Users of older assistive technologies may still be able
+                                                to perceive the alert messages even if they are not currently applicable.</li>
+                                        </ul>
+                                        <br />
+                                        <h4>Usability</h4>
+                                        <ul>
+
+                                            <h5>When to use</h5>
+                                            <li>As a notification that keeps people informed of the status of the system and
+                                                which may or may not require the user to respond. This includes errors, warnings,
+                                                and general updates.</li>
+                                            <li>As a validation message that alerts someone that they just did something that
+                                                needs to be corrected or as confirmation that a task was completed successfully.</li>
+                                            <br />
+                                            <h5>When to consider something else</h5>
+                                            <li>On long forms, always include in-line validation in addition to any error messages
+                                                that appear at the top of the form.
+                                            </li>
+                                            <li>If an action will result in destroying a user’s work (for example, deleting an
+                                                application) use a more intrusive pattern, such as a confirmation modal dialogue,
+                                                to allow the user to confirm that this is what they want.</li>
+                                            <br />
+                                            <h5>Guidance</h5>
+
+                                            <li>When the user is required to do something in response to an alert, let them know
+                                                what they need to do and make that task as easy as possible. Think about
+                                                how much context to provide with your message. For example, a notification
+                                                of a system change may require more contextual information than a validation
+                                                message. Write the message in concise, human readable language; avoid jargon
+                                                and computer code.</li>
+                                            <li>Be polite in error messages — don’t place blame on the user.</li>
+                                            <li>Users generally won’t read documentation but will read a message that helps them
+                                                resolve an error; include some educational material in your error message.</li>
+                                            <li>But don’t overdo it — too many notifications will either overwhelm or annoy the
+                                                user and are likely to be ignored.</li>
+                                            <li>Allow a user to dismiss a notification wherever appropriate.</li>
+                                            <li>Don’t include notifications that aren’t related to the user’s current goal.</li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- End row 9 -->
+
+                </div>
+
+                <!-- End main body -->
+
+            </div>
+        </div>
+
+        <!-- End main container -->
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/prism.js"></script>
+</body>
+
+</html>

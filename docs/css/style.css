@@ -1,3 +1,10 @@
+/* Red color placeholders */
+.color-red {
+  color: #F00 !important; }
+
+.color-red-offset {
+  color: yellow !important; }
+
 .color-primary {
   color: #3BC3E6 !important; }
 
@@ -127,6 +134,11 @@
 .bg-primary {
   background-color: #3BC3E6 !important;
   color: #1E1A34; }
+
+/*background red color placeholder */
+.bg-red {
+  background-color: #F00 !important;
+  color: yellow; }
 
 .bg-primary-darker {
   background-color: #236192 !important;
@@ -492,3 +504,38 @@ p {
 .monospace-huge {
   font-family: "Source Code Pro", monospace;
   font-size: 8em; }
+
+/* Good css */
+.alert-success {
+  color: #000000;
+  background-color: #43b02A;
+  border-color: #F3DD3E; }
+
+.alert-success hr {
+  border-top-color: #F3DD3E; }
+
+.alert-success .alert-link {
+  color: #000000; }
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb; }
+
+.alert-danger hr {
+  border-top-color: #f1b0b7; }
+
+.alert-danger .alert-link {
+  color: #491217; }
+
+/* New css class */
+.alert-danger {
+  color: yellow;
+  background-color: #F00;
+  border-color: yellow; }
+
+.alert-danger hr {
+  border-top-color: #f1b0b7; }
+
+.alert-danger .alert-link {
+  color: #491217; }
